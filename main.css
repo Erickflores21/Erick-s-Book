@@ -7,7 +7,18 @@ p {
     font-family: verdana;
     font-size: 100px;
     font-weight: bold;
-    color
   }
 
+  .list-view {
+      display: flex inline-block;
+      columns: 3;
+      width: 100%; 
+      flex-wrap: nowrap
+  }
+  .card {
+      margin-bottom: 40px;
+      height: 450px;
+  }
+  .container {
+    background-color:rgb(240, 210, 39);
   }
